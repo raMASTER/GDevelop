@@ -13,8 +13,10 @@ blocks:
         - name: Run some code
           commands:
             - node -p '"evol".split("").reverse().join("")'
-            cd GDevelop/newIDE/app
-npm install # or yarn
+        
             # Uncomment the following line to pull your code,
             # then proceed by adding your custom commands:
-            #- checkout
+            - checkout
+            
+                cd GDevelop/newIDE/app
+npm install # or yarn
